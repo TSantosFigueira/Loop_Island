@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: adaf63fd17528f54bb02c7bffc79ce71
+timeCreated: 1441001111
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: logos - 398x444_0
+    21300002: logos - 398x444_1
+    21300004: logos - 398x444_2
+    21300006: logos - 398x444_3
+    21300008: logos - 398x444_4
+    21300010: logos - 398x444_5
+    21300012: logos - 398x444_6
+    21300014: logos - 398x444_7
+    21300016: logos - 398x444_8
+    21300018: logos - 398x444_9
+    21300020: logos - 398x444_10
+    21300022: logos - 398x444_11
+    21300024: logos - 398x444_12
+    21300026: logos - 398x444_13
+    21300028: logos - 398x444_14
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: logos - 398x444_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 325
+        width: 103
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 208
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 209
+        width: 50
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_4
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 208
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 208
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 109
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 109
+        width: 52
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_8
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 105
+        width: 52
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 106
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 57
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_11
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 56
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1
+        width: 50
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 66
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: logos - 398x444_14
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 55
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
