@@ -40,11 +40,11 @@ public class teste2 : MonoBehaviour
 
                             if (swipeValue > 0)
                             {
-                                transform.Rotate(0, 0, swipeDistHorizontal);
+                                transform.Rotate(0, 0, 2);
                             }
                             else if (swipeValue < 0)
                             {
-                               transform.Rotate(0, 0, -swipeDistHorizontal);
+                               transform.Rotate(0, 0, -2);
                             }
                         }
                   break;
