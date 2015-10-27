@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class teste2 : MonoBehaviour
+public class SpinWheel : MonoBehaviour
 {
     public float minSwipeDistY;
     public float minSwipeDistX;
