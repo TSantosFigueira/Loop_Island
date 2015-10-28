@@ -478,8 +478,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 760039011}
   - 212: {fileID: 760039010}
-  - 58: {fileID: 760039009}
   - 114: {fileID: 760039008}
+  - 65: {fileID: 760039009}
   m_Layer: 0
   m_Name: discoFinal
   m_TagString: Untagged
@@ -500,22 +500,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSwipeDistY: 0
   minSwipeDistX: 0
-  power: 100
-  velocity: 9.99999994e-09
-  car: {fileID: 0}
---- !u!58 &760039009
-CircleCollider2D:
+  power: 10
+  velocity: 20
+  car: {fileID: 760039007}
+--- !u!65 &760039009
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 760039007}
-  m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 6.4199996
+  m_Size: {x: 12.8399992, y: 12.8399992, z: .200000003}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &760039010
 SpriteRenderer:
   m_ObjectHideFlags: 0
