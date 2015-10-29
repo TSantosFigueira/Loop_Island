@@ -7,16 +7,6 @@ public class DragDropTrial : MonoBehaviour {
     private Vector3 curScreenPoint;
     private Vector3 curPosition;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
     void OnMouseDown()
     {
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
