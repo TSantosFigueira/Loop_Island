@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 public class DragDropTrial : MonoBehaviour {
     private Vector3 screenPoint;
@@ -32,5 +33,4 @@ public class DragDropTrial : MonoBehaviour {
     {
         return dragging;
     }
-
 }

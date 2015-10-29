@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Splash - Ocean.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Splash - Jogo.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Mapa.unity
   - enabled: 1
     path: Assets/Scenes/Fase - 1.unity

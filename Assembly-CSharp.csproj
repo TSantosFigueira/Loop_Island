@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\CallScene.cs" />
      <Compile Include="Assets\Scripts\DragDropTrial.cs" />
      <Compile Include="Assets\Scripts\DragHandler.cs" />
+     <Compile Include="Assets\Scripts\Fase.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\MoveTowardsPlayer.cs" />
      <Compile Include="Assets\Scripts\Play.cs" />
