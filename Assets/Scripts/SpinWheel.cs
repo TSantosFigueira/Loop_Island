@@ -25,7 +25,7 @@ public class SpinWheel : MonoBehaviour
                     break;
 
                 case TouchPhase.Moved:
-                    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                    Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
                     float swipeDistHorizontal = (new Vector3(touch.position.x, 0, 0) - new Vector3(startPos.x, 0, 0)).magnitude;
                     // var wheelpower = velocity * power * Time.deltaTime; //velocity of "car" * engine power
 
