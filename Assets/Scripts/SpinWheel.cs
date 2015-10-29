@@ -25,16 +25,13 @@ public class SpinWheel : MonoBehaviour
                     break;
 
                 case TouchPhase.Moved:
-                    //Input.GetTouch(0).position
                     Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
                     float swipeDistHorizontal = (new Vector3(touch.position.x, 0, 0) - new Vector3(startPos.x, 0, 0)).magnitude;
-                    // var wheelpower = velocity * power * Time.deltaTime; //velocity of "car" * engine power
-
+                    
                     if (swipeDistHorizontal > minSwipeDistX && Physics.Raycast(ray, out hit) && DragDropTrial.isDragged())
                     { 
                         float swipeValue = Mathf.Sign(touch.position.x - startPos.x);
-                        //GetComponent<SphereCollider>().gameObject.transform.position;
-
+                       
                         if (swipeValue > 0)
                         {
                             transform.Rotate(0, 0, 2);
@@ -47,16 +44,5 @@ public class SpinWheel : MonoBehaviour
                     break;
             }
         }
-       /* if (Input.GetMouseButton(0))
-        {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-            if (Physics.Raycast(ray, out hit))
-            {
-                print(hit.point.ToString());
-                //transform.Translate(hit.point - transform.position);
-            }
-
-        } */
     }
 }
