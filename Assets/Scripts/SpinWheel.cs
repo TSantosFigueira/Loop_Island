@@ -28,7 +28,7 @@ public class SpinWheel : MonoBehaviour
                     Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
                     float swipeDistHorizontal = (new Vector3(touch.position.x, 0, 0) - new Vector3(startPos.x, 0, 0)).magnitude;
                     
-                    if (swipeDistHorizontal > minSwipeDistX && Physics.Raycast(ray, out hit) && DragDropTrial.isDragged())
+                    //if (swipeDistHorizontal > minSwipeDistX && Physics.Raycast(ray, out hit) && DragDropTrial.isDragged())
                     { 
                         float swipeValue = Mathf.Sign(touch.position.x - startPos.x);
                        
