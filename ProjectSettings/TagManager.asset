@@ -4,7 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - dock1
+  - dock
   layers:
   - Default
   - TransparentFX
