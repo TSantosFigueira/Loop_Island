@@ -45,17 +45,18 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CoinManager.cs" />
+     <Compile Include="Assets\ObjectsManager.cs" />
      <Compile Include="Assets\Scripts\CallScene.cs" />
-     <Compile Include="Assets\Scripts\DragDropTrial.cs" />
-     <Compile Include="Assets\Scripts\DragHandler.cs" />
      <Compile Include="Assets\Scripts\Fase.cs" />
-     <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\MoveTowardsPlayer.cs" />
+     <Compile Include="Assets\Scripts\Mover2.cs" />
      <Compile Include="Assets\Scripts\Play.cs" />
-     <Compile Include="Assets\Scripts\Slot.cs" />
      <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
      <Compile Include="Assets\Scripts\SpinWheel.cs" />
-     <Compile Include="Assets\Scripts\canhao.cs" />
+     <Compile Include="Assets\Scripts\TurretGoToPoint.cs" />
+     <Compile Include="Assets\SpawnOnCollision.cs" />
+     <Compile Include="Assets\Transform.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

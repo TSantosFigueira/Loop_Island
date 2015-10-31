@@ -9,8 +9,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 476478}
   - 212: {fileID: 21275934}
-  - 114: {fileID: 11400136}
-  - 114: {fileID: 11432108}
   - 58: {fileID: 5810124}
   - 114: {fileID: 11490886}
   - 50: {fileID: 5028724}
@@ -62,28 +60,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 4.3499999
---- !u!114 &11400136
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 185876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af0711dd84c62394d8cc7497057c06e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11432108
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 185876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d8c078f5abedd5498addb1a28486ca1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11490886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -95,7 +71,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b079e42f53a7a364fbcedce2781f85ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Controller: {fileID: 0}
   ObjectKey: 1
+  Custo: 0
 --- !u!212 &21275934
 SpriteRenderer:
   m_ObjectHideFlags: 1
