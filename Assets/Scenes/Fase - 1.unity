@@ -1613,3 +1613,44 @@ PolygonCollider2D:
       - {x: 1.21869135, y: -2.19312501}
       - {x: 1.26783204, y: -1.99656236}
       - {x: 1.68552732, y: -1.0383203}
+--- !u!1 &2092286840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2092286842}
+  - 114: {fileID: 2092286841}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2092286841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2092286840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bff799abfdd234a4294ebcf739bf5fa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnEnemy: {fileID: 193818, guid: 24e054711b223ce468032bd6dd8f2922, type: 2}
+  delayTime: 5
+--- !u!4 &2092286842
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2092286840}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .300000012, y: -1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
