@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Transform : MonoBehaviour {
+public class Pause : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
