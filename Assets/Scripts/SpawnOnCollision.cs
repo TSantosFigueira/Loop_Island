@@ -6,15 +6,7 @@ public class SpawnOnCollision : MonoBehaviour {
     private GameObject[] ObjectToSpawn;
     private bool IsBusy;
     private GameObject ObjectSpawned;
-    // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+  
     void OnMouseDown()
     {
         if (!IsBusy)
@@ -37,6 +29,11 @@ public class SpawnOnCollision : MonoBehaviour {
                     Debug.Log(Controller.GetComponent<CoinManager>().GetCoins());
                 }
             }
+        }
+        else if (IsBusy)
+        {
+            IsBusy = false;
+            Destroy(gameObject.transform.GetChild(0).gameObject);
         }
     }
 }
