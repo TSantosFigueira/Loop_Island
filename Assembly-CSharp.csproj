@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\CallScene.cs" />
      <Compile Include="Assets\Scripts\CoinManager.cs" />
      <Compile Include="Assets\Scripts\Fase.cs" />
+     <Compile Include="Assets\Scripts\GeneratePowerUp.cs" />
      <Compile Include="Assets\Scripts\MoveTowardsPlayer.cs" />
      <Compile Include="Assets\Scripts\Mover2.cs" />
      <Compile Include="Assets\Scripts\ObjectsManager.cs" />

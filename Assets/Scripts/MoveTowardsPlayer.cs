@@ -6,6 +6,7 @@ public class MoveTowardsPlayer : MonoBehaviour {
     public float speed = 1f;
     private int side;
     private int total = 0;
+    private GameObject target;
  
 
     // This function returns which side the turret game object has to go, considering it randomically
@@ -16,7 +17,8 @@ public class MoveTowardsPlayer : MonoBehaviour {
             total += 1;
             if (total == side) 
             {
-                return obj;
+                target = obj;
+                return target;
             }
         }
         return null;
