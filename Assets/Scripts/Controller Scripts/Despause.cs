@@ -1,15 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Despause : MonoBehaviour {
+public class Despause : MonoBehaviour
+{
+    public GameObject Pausando;
+    public GameObject Carrinho;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public void Dispausa()
+    {
+        Pausando.SetActive(false);
+        Carrinho.SetActive(true);
+        Time.timeScale = 1;
+    }
 }

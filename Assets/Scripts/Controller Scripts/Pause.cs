@@ -1,15 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Pause : MonoBehaviour {
+public class Pause : MonoBehaviour
+{
+    private GameObject Pausando;
+    public GameObject Carrinho;
+    void Start()
+    {
+        Pausando = GameObject.FindGameObjectWithTag("Pause");
+        Pausando.SetActive(false);
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    }
+    public void Pausa()
+    {
+        Time.timeScale = 0;
+
+        Pausando.SetActive(true);
+        Carrinho.SetActive(false);
+    }
 }

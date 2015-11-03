@@ -1,15 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Menu : MonoBehaviour {
+public class MenuPopUp : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public void Play()
+    {
+        Application.LoadLevel(Application.loadedLevel);
+    }
+
+    public void Menu()
+    {
+        //Application.LoadLevel ("Menu");
+    }
 }

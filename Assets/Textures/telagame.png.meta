@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: f69a201e49669b346a0662fb883dac8a
+timeCreated: 1446562801
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: telagame_0
+    21300002: telagame_1
+    21300004: telagame_2
+    21300006: telagame_3
+    21300008: telagame_4
+    21300010: telagame_5
+    21300012: telagame_6
+    21300014: telagame_7
+    21300016: telagame_8
+    21300018: telagame_9
+    21300020: telagame_10
+    21300022: telagame_11
+    21300024: telagame_12
+    21300026: telagame_13
+    21300028: telagame_14
+    21300030: telagame_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: telagame_0
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 2771
+        width: 1148
+        height: 305
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_1
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 2355
+        width: 1150
+        height: 308
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_2
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 2045
+        width: 144
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_3
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 2045
+        width: 144
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_4
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2045
+        width: 144
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_5
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 2045
+        width: 144
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_6
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1712
+        width: 1147
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 266
+        width: 575
+        height: 1433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_8
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1313
+        width: 179
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_9
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1313
+        width: 182
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_10
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1313
+        width: 179
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_11
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1313
+        width: 179
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_12
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1287
+        width: 207
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_13
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 762
+        width: 443
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_14
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 762
+        width: 443
+        height: 261
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: telagame_15
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 247
+        width: 1480
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
