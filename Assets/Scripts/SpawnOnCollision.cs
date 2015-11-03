@@ -9,14 +9,14 @@ public class SpawnOnCollision : MonoBehaviour {
   
     void OnMouseDown()
     {
+        int ObjectKey = PlayerPrefs.GetInt("SelectedObject");
         if (!IsBusy)
-        {
+        { 
             int PlayerCoins = Controller.GetComponent<CoinManager>().GetCoins();
             int CustoAtual= PlayerPrefs.GetInt("Custo");
-            if (PlayerCoins >= CustoAtual)
+            if (PlayerCoins >= CustoAtual && ObjectKey != 5)
             {
                 ObjectToSpawn = Controller.GetComponent<ObjectsManager>().ObjectsToSpawn;
-                int ObjectKey = PlayerPrefs.GetInt("SelectedObject");
                 ObjectSpawned = Instantiate(ObjectToSpawn[ObjectKey]);
                 if (ObjectSpawned)
                 {
@@ -31,9 +31,12 @@ public class SpawnOnCollision : MonoBehaviour {
             }
         }
         else if (IsBusy)
-        {
-            IsBusy = false;
-            Destroy(gameObject.transform.GetChild(0).gameObject);
+        {         
+            if(ObjectKey == 5)
+            {
+                IsBusy = false;
+                Destroy(gameObject.transform.GetChild(0).gameObject);
+            }
         }
     }
 }
