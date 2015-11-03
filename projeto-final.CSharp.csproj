@@ -68,15 +68,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CallScene.cs" />
     <Compile Include="Assets\Scripts\CoinManager.cs" />
-    <Compile Include="Assets\Scripts\Fase.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\CallScene.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\Despause.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\Fase.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\Home.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\Menu.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\Pause.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\Play.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\Reset.cs" />
     <Compile Include="Assets\Scripts\GeneratePowerUp.cs" />
     <Compile Include="Assets\Scripts\MoveTowardsPlayer.cs" />
     <Compile Include="Assets\Scripts\Mover2.cs" />
     <Compile Include="Assets\Scripts\ObjectsManager.cs" />
-    <Compile Include="Assets\Scripts\Pause.cs" />
-    <Compile Include="Assets\Scripts\Play.cs" />
     <Compile Include="Assets\Scripts\ScoreController.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
