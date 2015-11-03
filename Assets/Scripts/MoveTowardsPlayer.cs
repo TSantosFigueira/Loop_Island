@@ -33,7 +33,8 @@ public class MoveTowardsPlayer : MonoBehaviour {
 	void Update () {
         if (turret)
         {
-            transform.position = Vector2.MoveTowards(transform.position, turret.transform.position, speed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, new Vector2(turret.transform.position.x, turret.transform.position.y), speed * Time.deltaTime);
         }
-	}
+        turret = null;
+	} 
 }
