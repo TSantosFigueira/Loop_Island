@@ -6,7 +6,6 @@ public class SpawnEnemy : MonoBehaviour {
     public GameObject spawnEnemy;
     public float delayTime = 5f;
 
-
     void Start()
     {
         StartCoroutine(EnemySpawnTimer());

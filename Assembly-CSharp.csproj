@@ -57,13 +57,14 @@
      <Compile Include="Assets\Scripts\GeneratePowerUp.cs" />
      <Compile Include="Assets\Scripts\MoveTowardsPlayer.cs" />
      <Compile Include="Assets\Scripts\Mover2.cs" />
+     <Compile Include="Assets\Scripts\NewBullet.cs" />
      <Compile Include="Assets\Scripts\ObjectsManager.cs" />
      <Compile Include="Assets\Scripts\ScoreController.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\Shoot.cs" />
      <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
      <Compile Include="Assets\Scripts\SpawnOnCollision.cs" />
      <Compile Include="Assets\Scripts\SpinWheel.cs" />
-     <Compile Include="Assets\Scripts\TurretGoToPoint.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
