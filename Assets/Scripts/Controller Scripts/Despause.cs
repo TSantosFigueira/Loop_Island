@@ -4,12 +4,12 @@ using System.Collections;
 public class Despause : MonoBehaviour
 {
     public GameObject Pausando;
-    public GameObject Carrinho;
+    public GameObject EnemySpawner;
 
     public void Dispausa()
     {
         Pausando.SetActive(false);
-        Carrinho.SetActive(true);
+        EnemySpawner.SetActive(true);
         Time.timeScale = 1;
     }
 }

@@ -51,17 +51,11 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -77,23 +71,25 @@
     <Compile Include="Assets\Scripts\CoinManager.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\CallScene.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\Despause.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\EnableOrDisable.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\Fase.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\Home.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\Play.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\Reset.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\ScoreController.cs" />
     <Compile Include="Assets\Scripts\GeneratePowerUp.cs" />
     <Compile Include="Assets\Scripts\MoveTowardsPlayer.cs" />
     <Compile Include="Assets\Scripts\Mover2.cs" />
     <Compile Include="Assets\Scripts\NewBullet.cs" />
     <Compile Include="Assets\Scripts\ObjectsManager.cs" />
-    <Compile Include="Assets\Scripts\ScoreController.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
     <Compile Include="Assets\Scripts\SpawnOnCollision.cs" />
     <Compile Include="Assets\Scripts\SpinWheel.cs" />
+    <Compile Include="Assets\Scripts\Teste.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

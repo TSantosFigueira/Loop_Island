@@ -12,8 +12,9 @@ GameObject:
   - 114: {fileID: 11444454}
   - 50: {fileID: 5078746}
   - 61: {fileID: 6114228}
+  - 114: {fileID: 11447728}
   m_Layer: 0
-  m_Name: bola_vermelha
+  m_Name: torre1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,6 +75,19 @@ MonoBehaviour:
   Controller: {fileID: 0}
   ObjectKey: 1
   Custo: 0
+--- !u!114 &11447728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5504cbdd85afaa343ad8eb232c5ef9b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 184432, guid: 9f825b114955c284290fda73f93fba5d, type: 2}
+  delayTime: 5
 --- !u!212 &21297316
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -112,6 +126,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: ac3d711c872d0dc4ba77c572d3cb05af,
         type: 3}
+    - target: {fileID: 0}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 184432, guid: 9f825b114955c284290fda73f93fba5d, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 189592}

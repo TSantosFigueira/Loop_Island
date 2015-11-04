@@ -4,7 +4,7 @@ using System.Collections;
 public class Pause : MonoBehaviour
 {
     private GameObject Pausando;
-    public GameObject Carrinho;
+    public GameObject EnemySpawner;
     void Start()
     {
         Pausando = GameObject.FindGameObjectWithTag("Pause");
@@ -16,6 +16,6 @@ public class Pause : MonoBehaviour
         Time.timeScale = 0;
 
         Pausando.SetActive(true);
-        Carrinho.SetActive(false);
+        EnemySpawner.SetActive(false);
     }
 }

@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - dock
+  - Score
+  - ScoreGameOver
+  - HighestScore
+  - diskDock
   layers:
   - Default
   - TransparentFX

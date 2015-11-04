@@ -180,7 +180,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300002, guid: 3cef973d70c483e4896bbfef5aa3728a, type: 3}
+  m_Sprite: {fileID: 21300014, guid: efefe2da0afe0324d86bbfe4a1484baa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -528,7 +528,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300004, guid: 3cef973d70c483e4896bbfef5aa3728a, type: 3}
+  m_Sprite: {fileID: 21300012, guid: efefe2da0afe0324d86bbfe4a1484baa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -750,7 +750,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300006, guid: 3cef973d70c483e4896bbfef5aa3728a, type: 3}
+  m_Sprite: {fileID: 21300016, guid: efefe2da0afe0324d86bbfe4a1484baa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1000,7 +1000,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 83c4053c6e818bb409336158b8d32d08, type: 3}
+  m_Sprite: {fileID: 21300010, guid: efefe2da0afe0324d86bbfe4a1484baa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1022,12 +1022,12 @@ RectTransform:
   m_GameObject: {fileID: 1984771882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .642036855, y: .436062515, z: .682564199}
+  m_LocalScale: {x: .49965325, y: .669205844, z: .703653157}
   m_Children: []
   m_Father: {fileID: 1828508892}
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: 0}
   m_AnchorMax: {x: .5, y: 0}
-  m_AnchoredPosition: {x: 18, y: 444}
+  m_AnchoredPosition: {x: 34, y: 404}
   m_SizeDelta: {x: 773, y: 439}
   m_Pivot: {x: .5, y: .5}

@@ -9,18 +9,32 @@ public class NewBullet : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(SpawnBullet());
+       StartCoroutine(SpawnBullet());
     }
 
-    // Function type that allows us to use wait function.
-    IEnumerator SpawnBullet()
+    /* void Update()
     {
-        while (true)
+        if (transform.parent.gameObject.tag == "diskDock")
         {
             // Spawn game object whereever the object of the script is located.
             Instantiate(bullet, transform.position, Quaternion.identity);
             // Wait for seconds befor continueing the loop.
+            //yield return new WaitForSeconds(delayTime);
+        }
+    } */
+
+    // Function type that allows us to use wait function.
+    IEnumerator SpawnBullet()
+      {
+          while (true)
+          {
+             if (transform.parent.gameObject.tag == "diskDock") {
+                  // Spawn game object whereever the object of the script is located.
+                  Instantiate(bullet, transform.position, Quaternion.identity);
+                  // Wait for seconds befor continueing the loop.
+             }
             yield return new WaitForSeconds(delayTime);
         }
-    }
+      }
+
 }

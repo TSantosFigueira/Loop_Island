@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 05d4aaab3676e764480736653b4c5911
-timeCreated: 1446654089
+guid: 3adfc51e9f6c6b84f85b3c1dd478a2a4
+timeCreated: 1445870058
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: pause2_0
-    21300002: pause2_1
-    21300004: pause2_2
-    21300006: pause2_3
-    21300008: pause2_4
-    21300010: pause2_5
-    21300012: pause2_6
-    21300014: pause2_7
-    21300016: pause2_8
+    21300000: little monster_0
+    21300002: little monster_1
+    21300004: little monster_2
+    21300006: little monster_3
+    21300008: little monster_4
+    21300010: little monster_5
+    21300012: little monster_6
+    21300014: little monster_7
+    21300016: little monster_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,8 +35,8 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 2048
+  textureFormat: -3
+  maxTextureSize: 1024
   textureSettings:
     filterMode: -1
     aniso: 16
@@ -56,103 +56,98 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: Android
-    maxTextureSize: 1024
-    textureFormat: -3
-    compressionQuality: 50
-    allowsAlphaSplitting: 0
+  buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: pause2_0
+    - name: little monster_0
       rect:
         serializedVersion: 2
-        x: 367
-        y: 1345
-        width: 1082
-        height: 1577
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pause2_1
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 972
-        width: 817
-        height: 165
+        x: 101
+        y: 826
+        width: 467
+        height: 637
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pause2_2
+    - name: little monster_1
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 852
-        width: 635
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pause2_3
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 609
-        width: 817
-        height: 166
+        x: 699
+        y: 813
+        width: 392
+        height: 591
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pause2_4
+    - name: little monster_2
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 569
-        width: 637
-        height: 129
+        x: 1298
+        y: 749
+        width: 458
+        height: 612
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pause2_5
+    - name: little monster_3
       rect:
         serializedVersion: 2
-        x: 1
-        y: 298
-        width: 820
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1797
+        y: 745
+        width: 443
+        height: 592
+      alignment: 9
+      pivot: {x: .527140915, y: .548743367}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pause2_6
-      rect:
-        serializedVersion: 2
-        x: 1038
-        y: 327
-        width: 639
-        height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pause2_7
+    - name: little monster_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 815
-        height: 164
+        y: 29
+        width: 521
+        height: 694
+      alignment: 9
+      pivot: {x: .532308459, y: .523411274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: little monster_5
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 26
+        width: 535
+        height: 404
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: pause2_8
+    - name: little monster_6
       rect:
         serializedVersion: 2
-        x: 1035
-        y: 93
-        width: 637
-        height: 131
+        x: 901
+        y: 185
+        width: 489
+        height: 555
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: little monster_7
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 69
+        width: 455
+        height: 667
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: little monster_8
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 107
+        width: 529
+        height: 544
+      alignment: 9
+      pivot: {x: .522728622, y: .53094244}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
