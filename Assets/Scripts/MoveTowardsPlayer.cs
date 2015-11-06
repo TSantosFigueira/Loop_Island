@@ -30,6 +30,6 @@ public class MoveTowardsPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.Lerp(transform.position, turret.transform.position, speed * Time.deltaTime);
+        transform.position = Vector2.Lerp(transform.position, turret.transform.position, Time.deltaTime);
     }
 }

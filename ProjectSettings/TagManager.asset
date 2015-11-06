@@ -9,6 +9,7 @@ TagManager:
   - ScoreGameOver
   - HighestScore
   - diskDock
+  - Pause
   layers:
   - Default
   - TransparentFX

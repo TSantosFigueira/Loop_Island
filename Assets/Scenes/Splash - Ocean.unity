@@ -827,7 +827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3ced5ad4ea5a541b95f9a32f8e185e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scene: Splash - Jogo
+  Scene: splash
 --- !u!4 &2101976874
 Transform:
   m_ObjectHideFlags: 0

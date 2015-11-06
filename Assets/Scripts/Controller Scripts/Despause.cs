@@ -6,7 +6,7 @@ public class Despause : MonoBehaviour
     public GameObject Pausando;
     public GameObject EnemySpawner;
 
-    public void Dispausa()
+    public void Despausa()
     {
         Pausando.SetActive(false);
         EnemySpawner.SetActive(true);

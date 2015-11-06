@@ -19,8 +19,8 @@ public class ScoreController : MonoBehaviour {
 	void Update () {
         Scorer = (int)Time.timeSinceLevelLoad;
         Score.GetComponent<Text>().text = "" + Scorer;
-		ScoreGameOverr.GetComponent<Text>().text = " " + Scorer;
-		HighScorer.GetComponent<Text>().text = " " + HighScore;
+		ScoreGameOverr.GetComponent<Text>().text = "" + Scorer;
+		HighScorer.GetComponent<Text>().text = "" + HighScore;
         if (Scorer >= HighScore) {
 			HighScore=Scorer;
             setPlayerPrefs(Scorer);

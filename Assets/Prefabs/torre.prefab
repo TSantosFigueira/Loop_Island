@@ -69,10 +69,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 185876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5504cbdd85afaa343ad8eb232c5ef9b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 769f78fb53f56754f93ce773cdc307d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 184432, guid: 9f825b114955c284290fda73f93fba5d, type: 2}
+  bullet: {fileID: 168106, guid: ed2d6fa08815cf44a8e26ccce40d7226, type: 2}
   delayTime: 5
 --- !u!114 &11490886
 MonoBehaviour:
@@ -145,7 +145,7 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: bullet
       value: 
-      objectReference: {fileID: 184432, guid: 9f825b114955c284290fda73f93fba5d, type: 2}
+      objectReference: {fileID: 168106, guid: ed2d6fa08815cf44a8e26ccce40d7226, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 185876}
