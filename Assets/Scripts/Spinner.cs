@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Spin : MonoBehaviour {
+public class Spinner : MonoBehaviour {
     private float baseAngle = 0.0f;
    
     void OnMouseDown() //Quando o jogador toca pela primeira vez

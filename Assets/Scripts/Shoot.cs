@@ -18,12 +18,12 @@ public class Shoot : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D collider)
     {
-        if (collider.gameObject.name == "bowser(Clone)")
+        if (collider.gameObject.name == "enemy(Clone)")
         {
             Destroy(collider.gameObject);
             Destroy(transform.gameObject);
         }
-        if (collider.gameObject.name == "bala2(Clone)")
+        if (collider.gameObject.name == "bullet(Clone)")
         {
             Destroy(collider.gameObject);
             Destroy(transform.gameObject);
