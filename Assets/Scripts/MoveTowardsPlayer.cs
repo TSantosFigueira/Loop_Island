@@ -33,7 +33,7 @@ public class MoveTowardsPlayer : MonoBehaviour
         transform.position = Vector2.Lerp(transform.position, turret.transform.position, Time.deltaTime);
     }
 
-    void OnCollisionEnter2D (Collision2D collider)
+    void OnTriggerEnter2D (Collider2D collider)
     {
         foreach (GameObject parte in GameObject.FindGameObjectsWithTag("diskDock"))
         {

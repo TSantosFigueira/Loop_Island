@@ -350,7 +350,6 @@ GameObject:
   - 212: {fileID: 222012377}
   - 60: {fileID: 222012379}
   - 114: {fileID: 222012378}
-  - 50: {fileID: 222012380}
   m_Layer: 0
   m_Name: parte4
   m_TagString: diskDock
@@ -365,7 +364,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 222012375}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.1400001, y: .0450000018, z: 0}
+  m_LocalPosition: {x: -2.1400001, y: .0450000018, z: 1}
   m_LocalScale: {x: .430000007, y: .43751806, z: 1}
   m_Children: []
   m_Father: {fileID: 1404023777}
@@ -416,7 +415,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 222012375}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -450,22 +449,6 @@ PolygonCollider2D:
       - {x: -.772714853, y: -2.57113218}
       - {x: -.453300804, y: -2.57113218}
       - {x: .726074159, y: -1.98144484}
---- !u!50 &222012380
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 222012375}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &222661091
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,7 +581,6 @@ GameObject:
   - 212: {fileID: 278151273}
   - 60: {fileID: 278151275}
   - 114: {fileID: 278151274}
-  - 50: {fileID: 278151276}
   m_Layer: 0
   m_Name: parte7
   m_TagString: diskDock
@@ -613,7 +595,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 278151271}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.0600000173, y: -2.2650001, z: 0}
+  m_LocalPosition: {x: -.0600000173, y: -2.2650001, z: 1}
   m_LocalScale: {x: .430000007, y: .43751806, z: 1}
   m_Children: []
   m_Father: {fileID: 1404023777}
@@ -664,7 +646,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 278151271}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -697,22 +679,6 @@ PolygonCollider2D:
       - {x: 1.83921921, y: -1.21894515}
       - {x: 2.57632852, y: -1.02238274}
       - {x: 2.72375035, y: -.87496084}
---- !u!50 &278151276
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 278151271}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &320119382
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,7 +915,6 @@ GameObject:
   - 212: {fileID: 660476926}
   - 114: {fileID: 660476928}
   - 60: {fileID: 660476927}
-  - 50: {fileID: 660476929}
   m_Layer: 0
   m_Name: parte1
   m_TagString: diskDock
@@ -964,7 +929,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 660476924}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.55999994, y: 1.62, z: 0}
+  m_LocalPosition: {x: -1.55999994, y: 1.62, z: 1}
   m_LocalScale: {x: .430000007, y: .43751806, z: 1}
   m_Children: []
   m_Father: {fileID: 1404023777}
@@ -1003,7 +968,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 660476924}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -1051,22 +1016,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controller: {fileID: 691274789}
---- !u!50 &660476929
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 660476924}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &691274789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,7 +1614,6 @@ GameObject:
   - 212: {fileID: 1067338557}
   - 60: {fileID: 1067338559}
   - 114: {fileID: 1067338558}
-  - 50: {fileID: 1067338560}
   m_Layer: 0
   m_Name: parte5
   m_TagString: diskDock
@@ -1680,7 +1628,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1067338555}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.23200011, y: -.0579999983, z: 0}
+  m_LocalPosition: {x: 2.23200011, y: -.0579999983, z: 1}
   m_LocalScale: {x: .430000007, y: .43751806, z: 1}
   m_Children: []
   m_Father: {fileID: 1404023777}
@@ -1731,7 +1679,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1067338555}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -1767,22 +1715,6 @@ PolygonCollider2D:
       - {x: 1.17480552, y: -1.67601573}
       - {x: 1.19937587, y: -1.47945321}
       - {x: 1.29765713, y: -.988047004}
---- !u!50 &1067338560
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1067338555}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1068536138
 GameObject:
   m_ObjectHideFlags: 0
@@ -2394,7 +2326,6 @@ GameObject:
   - 212: {fileID: 1504838792}
   - 114: {fileID: 1504838794}
   - 60: {fileID: 1504838793}
-  - 50: {fileID: 1504838795}
   m_Layer: 0
   m_Name: parte3
   m_TagString: diskDock
@@ -2409,7 +2340,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1504838790}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.67200005, y: 1.59399998, z: 0}
+  m_LocalPosition: {x: 1.67200005, y: 1.59399998, z: 1}
   m_LocalScale: {x: .430000007, y: .43751806, z: 1}
   m_Children: []
   m_Father: {fileID: 1404023777}
@@ -2448,7 +2379,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1504838790}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -2493,22 +2424,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controller: {fileID: 691274789}
---- !u!50 &1504838795
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1504838790}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1545784218
 GameObject:
   m_ObjectHideFlags: 0
@@ -3108,7 +3023,6 @@ GameObject:
   - 212: {fileID: 1798685126}
   - 114: {fileID: 1798685128}
   - 60: {fileID: 1798685127}
-  - 50: {fileID: 1798685129}
   m_Layer: 0
   m_Name: parte2
   m_TagString: diskDock
@@ -3123,7 +3037,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1798685124}
   m_LocalRotation: {x: 0, y: 0, z: .0044080629, w: .999990284}
-  m_LocalPosition: {x: .209999979, y: 2.17999983, z: 0}
+  m_LocalPosition: {x: .209999979, y: 2.17999983, z: 1}
   m_LocalScale: {x: .430000007, y: .43751806, z: 1}
   m_Children: []
   m_Father: {fileID: 1404023777}
@@ -3162,7 +3076,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1798685124}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -3208,22 +3122,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controller: {fileID: 691274789}
---- !u!50 &1798685129
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1798685124}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1822209983 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 185876, guid: 0d06fccea6c030d4b96d51531b6642c3, type: 2}
@@ -3496,7 +3394,6 @@ GameObject:
   - 212: {fileID: 2026214159}
   - 60: {fileID: 2026214161}
   - 114: {fileID: 2026214160}
-  - 50: {fileID: 2026214162}
   m_Layer: 0
   m_Name: parte8
   m_TagString: diskDock
@@ -3511,8 +3408,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2026214157}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.67999995, y: -1.73000002, z: 0}
-  m_LocalScale: {x: .430000007, y: .43751806, z: 1}
+  m_LocalPosition: {x: 1.67999995, y: -1.69000006, z: 1}
+  m_LocalScale: {x: .430000007, y: .453860283, z: 1}
   m_Children: []
   m_Father: {fileID: 1404023777}
   m_RootOrder: 7
@@ -3562,7 +3459,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 2026214157}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -3595,22 +3492,6 @@ PolygonCollider2D:
       - {x: -.151815861, y: -1.50658202}
       - {x: .290449768, y: -1.18716788}
       - {x: .560723186, y: -.941464782}
---- !u!50 &2026214162
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2026214157}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &2053148242
 GameObject:
   m_ObjectHideFlags: 0
@@ -3622,7 +3503,6 @@ GameObject:
   - 212: {fileID: 2053148244}
   - 60: {fileID: 2053148246}
   - 114: {fileID: 2053148245}
-  - 50: {fileID: 2053148247}
   m_Layer: 0
   m_Name: parte6
   m_TagString: diskDock
@@ -3637,7 +3517,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2053148242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.505, y: -1.63, z: 0}
+  m_LocalPosition: {x: -1.505, y: -1.63, z: 1}
   m_LocalScale: {x: .430000007, y: .43751806, z: 1}
   m_Children: []
   m_Father: {fileID: 1404023777}
@@ -3688,7 +3568,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 2053148242}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -3724,22 +3604,6 @@ PolygonCollider2D:
       - {x: 1.21869135, y: -2.19312501}
       - {x: 1.26783204, y: -1.99656236}
       - {x: 1.68552732, y: -1.0383203}
---- !u!50 &2053148247
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2053148242}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &2092286840
 GameObject:
   m_ObjectHideFlags: 0
