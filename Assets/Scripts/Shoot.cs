@@ -2,9 +2,10 @@
 using System.Collections;
 
 public class Shoot : MonoBehaviour {
-    private GameObject target; 
+    private GameObject target;
+    private float distance;
     public float speed = 5f;
-
+    
 	// Use this for initialization
 	void Start () {
         target = GameObject.FindGameObjectWithTag("Respawn");
@@ -14,6 +15,11 @@ public class Shoot : MonoBehaviour {
 	void Update ()
     {
         transform.position = Vector2.Lerp(transform.position, target.transform.position, speed * Time.deltaTime);
+        distance = Vector3.Distance(transform.position, target.transform.position);
+        if (distance <= 0.01)
+        {
+            Destroy(transform.gameObject);
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collider)
