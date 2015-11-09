@@ -4,6 +4,7 @@ using System.Collections;
 public class Spinner : MonoBehaviour {
     private float baseAngle = 0.0f;
    
+   
     void OnMouseDown() //Quando o jogador toca pela primeira vez
     {
         Vector3 pos = Camera.main.WorldToScreenPoint(transform.position);
@@ -15,9 +16,11 @@ public class Spinner : MonoBehaviour {
 
     void OnMouseDrag() //Quando o jogador arrasta
     {
+       
         Vector3 pos = Camera.main.WorldToScreenPoint(transform.position);
         pos = Input.mousePosition - pos;
         float ang = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg - baseAngle;
         transform.rotation = Quaternion.AngleAxis(ang, Vector3.forward);
+        
     }
 }

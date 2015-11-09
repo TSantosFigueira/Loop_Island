@@ -85,8 +85,10 @@
     <Compile Include="Assets\Scripts\Controller Scripts\Play.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\Reset.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\ScoreController.cs" />
+    <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\GeneratePowerUp.cs" />
     <Compile Include="Assets\Scripts\GirarCanhao.cs" />
+    <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\MoveTowardsPlayer.cs" />
     <Compile Include="Assets\Scripts\Mover2.cs" />
     <Compile Include="Assets\Scripts\NewBullet.cs" />
@@ -94,11 +96,13 @@
     <Compile Include="Assets\Scripts\ScapeExit.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\Shoot.cs" />
+    <Compile Include="Assets\Scripts\ShootPrototype.cs" />
     <Compile Include="Assets\Scripts\Sound.cs" />
     <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
     <Compile Include="Assets\Scripts\SpawnOnCollision.cs" />
-    <Compile Include="Assets\Scripts\SpinWheel.cs" />
+    <Compile Include="Assets\Scripts\Spinner.cs" />
     <Compile Include="Assets\Scripts\Teste.cs" />
+    <Compile Include="Assets\Scripts\setScore.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
