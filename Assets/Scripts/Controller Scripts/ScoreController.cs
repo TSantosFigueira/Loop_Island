@@ -18,9 +18,9 @@ public class ScoreController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Scorer = (int)Time.timeSinceLevelLoad;
-        Score.GetComponent<Text>().text = "" + Scorer;
-		ScoreGameOverr.GetComponent<Text>().text = "" + Scorer;
-		HighScorer.GetComponent<Text>().text = "" + HighScore;
+        //Score.GetComponent<Text>().text = "" + Scorer;
+		//ScoreGameOverr.GetComponent<Text>().text = "" + Scorer;
+		//HighScorer.GetComponent<Text>().text = "" + HighScore;
         if (Scorer >= HighScore) {
 			HighScore=Scorer;
             setPlayerPrefs(Scorer);

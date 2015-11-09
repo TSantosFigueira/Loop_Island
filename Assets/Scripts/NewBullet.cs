@@ -26,7 +26,6 @@ public class NewBullet : MonoBehaviour
             {
                 // Spawn game object whereever the object of the script is located.  transform.parent.position
                 Instantiate(bullet, transform.parent.gameObject.transform.position, Quaternion.identity);
-                Debug.Log("O Colisor é: " + hit.collider);
             }
             // Wait for seconds befor continueing the loop.
             yield return new WaitForSeconds(delayTime);
