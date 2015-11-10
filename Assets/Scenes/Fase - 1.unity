@@ -350,7 +350,6 @@ GameObject:
   - 212: {fileID: 222012377}
   - 60: {fileID: 222012379}
   - 114: {fileID: 222012378}
-  - 50: {fileID: 222012380}
   m_Layer: 0
   m_Name: parte4
   m_TagString: diskDock
@@ -416,7 +415,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 222012375}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -450,22 +449,6 @@ PolygonCollider2D:
       - {x: -1.01117694, y: -2.27817678}
       - {x: -.602339566, y: -2.27817678}
       - {x: .457804143, y: -1.77637577}
---- !u!50 &222012380
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 222012375}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!1 &222661091
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,7 +467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &222661092
 RectTransform:
   m_ObjectHideFlags: 0
@@ -597,7 +580,6 @@ GameObject:
   - 212: {fileID: 278151273}
   - 60: {fileID: 278151275}
   - 114: {fileID: 278151274}
-  - 50: {fileID: 278151276}
   m_Layer: 0
   m_Name: parte7
   m_TagString: diskDock
@@ -663,7 +645,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 278151271}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -696,22 +678,6 @@ PolygonCollider2D:
       - {x: 1.83921921, y: -1.21894515}
       - {x: 2.57632852, y: -1.02238274}
       - {x: 2.72375035, y: -.87496084}
---- !u!50 &278151276
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 278151271}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!1 &320119382
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,7 +914,6 @@ GameObject:
   - 212: {fileID: 660476926}
   - 114: {fileID: 660476928}
   - 60: {fileID: 660476927}
-  - 50: {fileID: 660476929}
   m_Layer: 0
   m_Name: parte1
   m_TagString: diskDock
@@ -1002,7 +967,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 660476924}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -1052,22 +1017,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controller: {fileID: 691274789}
---- !u!50 &660476929
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 660476924}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!1 &691274789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1578,7 +1527,6 @@ GameObject:
   - 212: {fileID: 1067338557}
   - 60: {fileID: 1067338559}
   - 114: {fileID: 1067338558}
-  - 50: {fileID: 1067338560}
   m_Layer: 0
   m_Name: parte5
   m_TagString: diskDock
@@ -1644,7 +1592,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1067338555}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -1680,22 +1628,6 @@ PolygonCollider2D:
       - {x: 1.17480552, y: -1.67601573}
       - {x: 1.19937587, y: -1.47945321}
       - {x: 1.29765713, y: -.988047004}
---- !u!50 &1067338560
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1067338555}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!1 &1068536138
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,7 +2012,7 @@ GameObject:
   - 135: {fileID: 1404023779}
   m_Layer: 0
   m_Name: Disco
-  m_TagString: Untagged
+  m_TagString: Wheel
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2286,7 +2218,6 @@ GameObject:
   - 212: {fileID: 1504838792}
   - 114: {fileID: 1504838794}
   - 60: {fileID: 1504838793}
-  - 50: {fileID: 1504838795}
   m_Layer: 0
   m_Name: parte3
   m_TagString: diskDock
@@ -2340,7 +2271,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1504838790}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: .0199999996, y: 0}
   m_Points:
@@ -2386,22 +2317,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controller: {fileID: 691274789}
---- !u!50 &1504838795
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1504838790}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!1 &1533712984
 GameObject:
   m_ObjectHideFlags: 0
@@ -3320,7 +3235,6 @@ GameObject:
   - 212: {fileID: 1798685126}
   - 114: {fileID: 1798685128}
   - 60: {fileID: 1798685127}
-  - 50: {fileID: 1798685129}
   m_Layer: 0
   m_Name: parte2
   m_TagString: diskDock
@@ -3374,7 +3288,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 1798685124}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -3420,22 +3334,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Controller: {fileID: 691274789}
---- !u!50 &1798685129
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1798685124}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!1 &1822209983 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 185876, guid: 0d06fccea6c030d4b96d51531b6642c3, type: 2}
@@ -3708,7 +3606,6 @@ GameObject:
   - 212: {fileID: 2026214159}
   - 60: {fileID: 2026214161}
   - 114: {fileID: 2026214160}
-  - 50: {fileID: 2026214162}
   m_Layer: 0
   m_Name: parte8
   m_TagString: diskDock
@@ -3774,7 +3671,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 2026214157}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -3808,22 +3705,6 @@ PolygonCollider2D:
       - {x: -.151815861, y: -1.50658202}
       - {x: .290449768, y: -1.18716788}
       - {x: .560723186, y: -.941464782}
---- !u!50 &2026214162
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2026214157}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!1 &2053148242
 GameObject:
   m_ObjectHideFlags: 0
@@ -3835,7 +3716,6 @@ GameObject:
   - 212: {fileID: 2053148244}
   - 60: {fileID: 2053148246}
   - 114: {fileID: 2053148245}
-  - 50: {fileID: 2053148247}
   m_Layer: 0
   m_Name: parte6
   m_TagString: diskDock
@@ -3901,7 +3781,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 2053148242}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -3938,22 +3818,6 @@ PolygonCollider2D:
       - {x: 1.02936995, y: -1.76219785}
       - {x: 1.21778023, y: -1.18844032}
       - {x: 1.59610403, y: -.745364368}
---- !u!50 &2053148247
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2053148242}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 7
 --- !u!1 &2092286840
 GameObject:
   m_ObjectHideFlags: 0
