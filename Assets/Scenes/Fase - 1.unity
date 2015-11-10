@@ -1203,7 +1203,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 691274789}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9af26fd846a46ed46bef225f6b673cac, type: 3}
   m_Name: 
@@ -1560,8 +1560,8 @@ Transform:
   m_LocalScale: {x: .912500024, y: 1, z: 1}
   m_Children:
   - {fileID: 1573571925}
-  - {fileID: 653647460}
   - {fileID: 1616685294}
+  - {fileID: 653647460}
   - {fileID: 275089904}
   - {fileID: 694203664}
   - {fileID: 1335620639}
@@ -1924,7 +1924,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 476478, guid: 0d06fccea6c030d4b96d51531b6642c3, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11490886, guid: 0d06fccea6c030d4b96d51531b6642c3, type: 2}
       propertyPath: ObjectKey
@@ -3114,7 +3114,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 476478, guid: 0d06fccea6c030d4b96d51531b6642c3, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11490886, guid: 0d06fccea6c030d4b96d51531b6642c3, type: 2}
       propertyPath: ObjectKey

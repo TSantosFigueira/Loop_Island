@@ -6,6 +6,7 @@ public class NewBullet : MonoBehaviour
     // Public gameobject where you will drag the prefab you want to spawn.
     public GameObject bullet;
     public float delayTime = 5f;
+    private float distance;
 
     private GameObject target;
 
@@ -21,7 +22,7 @@ public class NewBullet : MonoBehaviour
         while (true) {
            // Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(transform.parent.gameObject.transform.position, target.transform.position, 50f);
-
+        
             if (transform.parent.gameObject.tag == "diskDock" && hit && hit.collider)
             {
                 // Spawn game object whereever the object of the script is located.  transform.parent.position

@@ -33,27 +33,12 @@ public class MoveTowardsPlayer : MonoBehaviour
         transform.position = Vector2.Lerp(transform.position, turret.transform.position, Time.deltaTime);
     }
 
-    /*void OnTriggerEnter2D (Collider2D collider)
-    {
-        foreach (GameObject parte in GameObject.FindGameObjectsWithTag("diskDock"))
-        {
-            if (collider.gameObject == parte.gameObject)
-            {
-                Destroy(collider.gameObject);
-                Destroy(transform.gameObject);
-            }
-        }
-    }*/
-
     void OnCollisionEnter2D(Collision2D collider)
     {
-        foreach (GameObject parte in GameObject.FindGameObjectsWithTag("diskDock"))
+        if (collider.gameObject.tag == "diskDock")
         {
-            if (collider.gameObject == parte.gameObject)
-            {
-                Destroy(collider.gameObject);
-                Destroy(transform.gameObject);
-            }
+            Destroy(transform.gameObject);
+            Destroy(collider.gameObject.GetComponent<Collider2D>().gameObject);
         }
     }
 }
