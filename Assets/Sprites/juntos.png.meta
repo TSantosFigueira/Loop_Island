@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: f40888cc95b32954095bf672f298c6d5
+timeCreated: 1446455310
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: juntos_0
+    21300002: juntos_1
+    21300004: juntos_2
+    21300006: juntos_3
+    21300008: juntos_4
+    21300010: juntos_5
+    21300012: juntos_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: juntos_0
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 329
+        width: 1570
+        height: 1522
+      alignment: 9
+      pivot: {x: .536708474, y: .0672441572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: juntos_1
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 329
+        width: 1570
+        height: 1510
+      alignment: 9
+      pivot: {x: .539330602, y: .0692574829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: juntos_2
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 339
+        width: 1588
+        height: 1516
+      alignment: 9
+      pivot: {x: .536292732, y: .0655312687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: juntos_3
+      rect:
+        serializedVersion: 2
+        x: 5202
+        y: 339
+        width: 1576
+        height: 1516
+      alignment: 9
+      pivot: {x: .533956945, y: .0655312687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: juntos_4
+      rect:
+        serializedVersion: 2
+        x: 6917
+        y: 338
+        width: 1582
+        height: 1544
+      alignment: 9
+      pivot: {x: .5286237, y: .0654116794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: juntos_5
+      rect:
+        serializedVersion: 2
+        x: 8795
+        y: 335
+        width: 1582
+        height: 1776
+      alignment: 9
+      pivot: {x: .523419619, y: .0572811514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: juntos_6
+      rect:
+        serializedVersion: 2
+        x: 10591
+        y: 338
+        width: 1618
+        height: 2075
+      alignment: 9
+      pivot: {x: .53307575, y: .0496548638}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
