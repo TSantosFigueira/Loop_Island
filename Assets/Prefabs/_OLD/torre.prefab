@@ -9,9 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 476478}
   - 212: {fileID: 21275934}
-  - 114: {fileID: 11490886}
-  - 61: {fileID: 6162720}
-  - 114: {fileID: 11441052}
+  - 50: {fileID: 5025062}
+  - 114: {fileID: 11471656}
   m_Layer: 0
   m_Name: torre
   m_TagString: Untagged
@@ -31,20 +30,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!61 &6162720
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 185876}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 9.53674316e-07, y: 1.90734863e-06}
+--- !u!50 &5025062
+Rigidbody2D:
   serializedVersion: 2
-  m_Size: {x: 7.54000092, y: 10.4499998}
---- !u!114 &11441052
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185876}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &11471656
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -52,25 +54,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 185876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 769f78fb53f56754f93ce773cdc307d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 43dfd2279f082fb4498e67f1296834bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 168106, guid: ed2d6fa08815cf44a8e26ccce40d7226, type: 2}
-  delayTime: 5
---- !u!114 &11490886
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 185876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b079e42f53a7a364fbcedce2781f85ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Controller: {fileID: 0}
-  ObjectKey: 1
-  Custo: 0
+  VelocidadeVertical: 1
+  DistanciaVertical: .800000012
+  VelocidadeHorizontal: 1
+  VelocidadeDeRotacao: .400000006
 --- !u!212 &21275934
 SpriteRenderer:
   m_ObjectHideFlags: 1

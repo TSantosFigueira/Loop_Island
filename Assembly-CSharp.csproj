@@ -48,6 +48,7 @@
      <Compile Include="Assets\DefaultVelocity.cs" />
      <Compile Include="Assets\OstraCollect.cs" />
      <Compile Include="Assets\OstraSpawn.cs" />
+     <Compile Include="Assets\OstraSpawnCtrl.cs" />
      <Compile Include="Assets\Scripts\CoinManager.cs" />
      <Compile Include="Assets\Scripts\Controller Scripts\CallScene.cs" />
      <Compile Include="Assets\Scripts\Controller Scripts\Despause.cs" />
@@ -77,11 +78,17 @@
      <Compile Include="Assets\Scripts\Spinner.cs" />
      <Compile Include="Assets\Scripts\Teste.cs" />
      <Compile Include="Assets\Scripts\setScore.cs" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

@@ -1,19 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class OstraSpawn : MonoBehaviour {
-    public GameObject prefab;
+public class OstraSpawn : MonoBehaviour
+{
+    // Public gameobject where you will drag the prefab you want to spawn.
+    public GameObject spawnOstra;
+    public float delayTime = 1f;
+    private int EnemyCounter = 0;
 
-	void Start () {
-        //Spawn first Ostra in 10 seconds, repeat every 10 seconds
-        InvokeRepeating("Spawn", 30, 30);
-	}
-	
-	void Update () {
-        // Load prefab into the Scene
-        // -> transform.position means current position
-        // -> Quaternion.identity means default rotation
-        Instantiate(prefab,transform.position, Quaternion.identity);
+    void Start()
+    {
+        StartCoroutine(OstraSpawnTimer());
+    }
 
+    // Function type that allows us to use wait function.
+    IEnumerator OstraSpawnTimer()
+    {
+        while (EnemyCounter < 2)
+        {
+            // Spawn game object whereever the object of the script is located.
+            Instantiate(spawnOstra, transform.position, Quaternion.identity);
+            EnemyCounter++;
+            // Wait for seconds befor continueing the loop.
+            yield return new WaitForSeconds(delayTime);
+        }
     }
 }

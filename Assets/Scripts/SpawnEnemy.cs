@@ -15,7 +15,7 @@ public class SpawnEnemy : MonoBehaviour {
     // Function type that allows us to use wait function.
     IEnumerator EnemySpawnTimer()
     {
-        while (EnemyCounter < 20)
+        while (EnemyCounter < 15)
         {
             // Spawn game object whereever the object of the script is located.
             Instantiate(spawnEnemy, transform.position, Quaternion.identity);

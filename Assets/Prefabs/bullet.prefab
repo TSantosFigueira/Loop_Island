@@ -9,9 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 467792}
   - 212: {fileID: 21252680}
-  - 50: {fileID: 5054048}
   - 58: {fileID: 5870334}
   - 114: {fileID: 11439366}
+  - 114: {fileID: 11439228}
   m_Layer: 0
   m_Name: bullet
   m_TagString: Untagged
@@ -31,22 +31,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!50 &5054048
-Rigidbody2D:
-  serializedVersion: 2
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 168106}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!58 &5870334
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -60,6 +44,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: .639999986
+--- !u!114 &11439228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43dfd2279f082fb4498e67f1296834bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VelocidadeVertical: 1
+  DistanciaVertical: .800000012
+  VelocidadeHorizontal: 1
+  VelocidadeDeRotacao: .400000006
 --- !u!114 &11439366
 MonoBehaviour:
   m_ObjectHideFlags: 1
