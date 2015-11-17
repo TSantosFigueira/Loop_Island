@@ -27,6 +27,7 @@ public class NewBullet : MonoBehaviour
             {
                 // Spawn game object whereever the object of the script is located.  transform.parent.position
                 Instantiate(bullet, transform.parent.gameObject.transform.position, Quaternion.identity);
+                gameObject.GetComponent<Animator>().SetTrigger("atirando");
             }
             // Wait for seconds befor continueing the loop.
             yield return new WaitForSeconds(delayTime);

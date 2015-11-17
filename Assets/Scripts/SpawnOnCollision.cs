@@ -3,6 +3,8 @@ using System.Collections;
 
 public class SpawnOnCollision : MonoBehaviour {
     public GameObject Controller;
+    public float AngleCanhao;
+
     private GameObject[] ObjectToSpawn;
     private bool IsBusy;
     private GameObject ObjectSpawned;
@@ -22,6 +24,9 @@ public class SpawnOnCollision : MonoBehaviour {
                 {
                     ObjectSpawned.gameObject.transform.SetParent(this.transform);
                     ObjectSpawned.transform.position = gameObject.transform.position;
+                    ObjectSpawned.transform.eulerAngles = new Vector3(0, 0, AngleCanhao - 107);
+                    ObjectSpawned.transform.position = ObjectSpawned.transform.position - ObjectSpawned.transform.up*0.5f;
+                    //Debug.Log(ObjectSpawned.transform.up);
                     Controller.GetComponent<CoinManager>().SetCoins(CustoAtual, false);
                     PlayerPrefs.SetInt("SelectedObject", 0);
                     PlayerPrefs.SetInt("Custo", 0);
