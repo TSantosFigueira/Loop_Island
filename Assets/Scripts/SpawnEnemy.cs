@@ -5,6 +5,7 @@ public class SpawnEnemy : MonoBehaviour {
     // Public gameobject where you will drag the prefab you want to spawn.
     public GameObject spawnEnemy;
     public float delayTime = 5f;
+    public int scoreValue = 10;
     private int EnemyCounter = 0;
 
     void Start()

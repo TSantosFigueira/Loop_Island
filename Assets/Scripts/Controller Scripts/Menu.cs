@@ -13,4 +13,11 @@ public class MenuPopUp : MonoBehaviour
     {
         //Application.LoadLevel ("Menu");
     }
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 }

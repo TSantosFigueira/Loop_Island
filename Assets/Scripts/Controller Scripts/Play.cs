@@ -8,4 +8,11 @@ public class Play : MonoBehaviour
     {
         Application.LoadLevel("Mapa");
     }
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
 }

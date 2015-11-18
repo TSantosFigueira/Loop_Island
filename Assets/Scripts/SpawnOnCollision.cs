@@ -28,7 +28,7 @@ public class SpawnOnCollision : MonoBehaviour
                     //AngleCanhao = Vector3.Distance(gameObject.transform.up, Direction.transform.position);
                     ObjectSpawned.gameObject.transform.SetParent(this.transform);
                     ObjectSpawned.transform.position = gameObject.transform.position;
-                    ObjectSpawned.transform.eulerAngles = new Vector3(0, 0, AngleCanhao - 107);
+                    ObjectSpawned.transform.eulerAngles = new Vector3(0, 0, AngleCanhao - 107 + transform.rotation.eulerAngles.z);
                     //new Vector3(0, 0, AngleCanhao - 107);
                     ObjectSpawned.transform.position = ObjectSpawned.transform.position - ObjectSpawned.transform.up * 0.5f;
                     //Debug.Log(ObjectSpawned.transform.up);
