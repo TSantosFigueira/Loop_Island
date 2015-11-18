@@ -2,16 +2,13 @@
 using System.Collections;
 
 public class OstraCollect : MonoBehaviour {
-    public static int score = 100;
-
-    
+    private int score = 100;
+     
     void OnMouseDown () {
-        //Golbal Score
-        score += 20;
-	
-
-    // destroy ostra
-    Destroy(gameObject);
-	
+        if(gameObject.name == "ostra1(Clone)")
+        {
+            score += 20;
+            Destroy(gameObject);
+        }            
 	}
 }

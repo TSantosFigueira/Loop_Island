@@ -20,8 +20,7 @@ public class NewBullet : MonoBehaviour
     IEnumerator SpawnBullet()
       {
         while (true) {
-           // Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit2D hit = Physics2D.Raycast(transform.parent.gameObject.transform.position, target.transform.position, 50f);
+             RaycastHit2D hit = Physics2D.Raycast(transform.parent.gameObject.transform.position, target.transform.position, 50f);
         
             if (transform.parent.gameObject.tag == "diskDock" && hit && hit.collider)
             {
