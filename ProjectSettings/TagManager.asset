@@ -11,6 +11,7 @@ TagManager:
   - diskDock
   - Pause
   - Wheel
+  - ScoreTag
   layers:
   - Default
   - TransparentFX

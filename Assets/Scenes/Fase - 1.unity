@@ -272,7 +272,7 @@ Transform:
   m_LocalScale: {x: .847951412, y: 1.09664059, z: .847951889}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
 --- !u!1 &209895207
 GameObject:
   m_ObjectHideFlags: 0
@@ -937,48 +937,6 @@ RectTransform:
   m_AnchoredPosition: {x: -14.8999996, y: -16.6000023}
   m_SizeDelta: {x: 90.5, y: 100}
   m_Pivot: {x: .5, y: .5}
---- !u!1001 &519249340
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 438104, guid: 82efcfe936e360d45819f428e94cb777, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.29209995
-      objectReference: {fileID: 0}
-    - target: {fileID: 438104, guid: 82efcfe936e360d45819f428e94cb777, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.49000001
-      objectReference: {fileID: 0}
-    - target: {fileID: 438104, guid: 82efcfe936e360d45819f428e94cb777, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 438104, guid: 82efcfe936e360d45819f428e94cb777, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 438104, guid: 82efcfe936e360d45819f428e94cb777, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 438104, guid: 82efcfe936e360d45819f428e94cb777, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 438104, guid: 82efcfe936e360d45819f428e94cb777, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 438104, guid: 82efcfe936e360d45819f428e94cb777, type: 2}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_IsPrefabParent: 0
 --- !u!1 &567000008
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,7 +1254,7 @@ Transform:
   m_Children:
   - {fileID: 1943394343}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
 --- !u!114 &691274792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1491,33 +1449,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 732733571}
---- !u!1 &796137292
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 519249340}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 796137293}
-  m_Layer: 0
-  m_Name: Missing Prefab
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &796137293
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 519249340}
-  m_GameObject: {fileID: 796137292}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
 --- !u!1 &889697391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1732,7 +1663,7 @@ Transform:
   - {fileID: 1628722737}
   - {fileID: 1335620639}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!1 &1067338555
 GameObject:
   m_ObjectHideFlags: 0
@@ -2195,7 +2126,7 @@ Transform:
   - {fileID: 278151272}
   - {fileID: 2026214158}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
 --- !u!114 &1404023778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2898,7 +2829,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1 &1628722736 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 135356, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
@@ -3613,9 +3544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33109b61a8fa52448a59cdb6306732f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreTAG: Score
-  ScoreGameOver: ScoreGameOver
-  HighScoreTAG: HighestScore
+  score: 100
 --- !u!1 &1992332059
 GameObject:
   m_ObjectHideFlags: 0
@@ -4047,7 +3976,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
 --- !u!114 &2092286843
 MonoBehaviour:
   m_ObjectHideFlags: 0
