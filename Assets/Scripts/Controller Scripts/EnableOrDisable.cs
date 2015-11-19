@@ -18,7 +18,7 @@ public class EnableOrDisable : MonoBehaviour
         else
         {
             buttonList[0].SetActive(false);
-            buttonList[1].SetActive(false);
+            buttonList[1].SetActive(true);
             tela.SetActive(true);
         }
     }

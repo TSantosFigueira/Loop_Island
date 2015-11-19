@@ -2207,7 +2207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e066831e3214bda4f9d8e0c1e0e8743a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musica1: {fileID: 8300000, guid: 2f4f6c4decde5d34b9afd6f133659a4d, type: 3}
+  musica1: {fileID: 8300000, guid: 22fa97a2c6b7f7a4b8b279dae2ebf638, type: 3}
 --- !u!135 &1404023779
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2231,7 +2231,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2f4f6c4decde5d34b9afd6f133659a4d, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: .550000012
   m_Pitch: 1
   Loop: 0
   Mute: 0
