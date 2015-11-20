@@ -24,8 +24,8 @@ public class ScoreController : MonoBehaviour
     void Update()
     {
         Score.GetComponent<Text>().text = Scorer.ToString();
-        ScoreGameOverr.GetComponent<Text>().text = "" + Scorer;
-        HighScorer.GetComponent<Text>().text = "" + HighScore;
+        ScoreGameOverr.GetComponent<Text>().text = "  " + Scorer;
+        HighScorer.GetComponent<Text>().text = "  " + HighScore;
 
         if (Scorer >= HighScore)
         {
