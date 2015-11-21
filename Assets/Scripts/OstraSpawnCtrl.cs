@@ -7,6 +7,7 @@ public class OstraSpawnCtrl : MonoBehaviour
     public GameObject spawnOstra;
     public float delayTime = 1f;
     private int EnemyCounter = 0;
+    public AudioClip powerups;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class OstraSpawnCtrl : MonoBehaviour
             EnemyCounter++;
             // Wait for seconds befor continueing the loop.
             yield return new WaitForSeconds(delayTime);
+            GetComponent<AudioSource>().PlayOneShot(powerups, 0.4f);
         }
     }
 

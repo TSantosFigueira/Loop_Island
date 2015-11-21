@@ -7,6 +7,7 @@ public class NewBullet : MonoBehaviour
     public GameObject bullet;
     public float delayTime = 5f;
     private float distance;
+    public AudioClip atirando;
 
     private GameObject target;
 
@@ -27,6 +28,7 @@ public class NewBullet : MonoBehaviour
                 // Spawn game object whereever the object of the script is located.  transform.parent.position
                 Instantiate(bullet, transform.parent.gameObject.transform.position, Quaternion.identity);
                 gameObject.GetComponent<Animator>().SetTrigger("atirando");
+                GetComponent<AudioSource>().PlayOneShot(atirando, 0.4f);
             }
             // Wait for seconds befor continueing the loop.
             yield return new WaitForSeconds(delayTime);

@@ -536,7 +536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f20be5e98693664784536e381c59aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: .5
+  speed: 1
 --- !u!212 &21209594
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -581,6 +581,10 @@ Prefab:
         type: 3}
     - target: {fileID: 0}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: speed
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

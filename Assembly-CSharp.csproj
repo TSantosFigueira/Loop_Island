@@ -52,13 +52,13 @@
      <Compile Include="Assets\Scripts\Controller Scripts\Fase.cs" />
      <Compile Include="Assets\Scripts\Controller Scripts\Home.cs" />
      <Compile Include="Assets\Scripts\Controller Scripts\Menu.cs" />
+     <Compile Include="Assets\Scripts\Controller Scripts\MuteSound.cs" />
      <Compile Include="Assets\Scripts\Controller Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\Controller Scripts\Play.cs" />
      <Compile Include="Assets\Scripts\Controller Scripts\Reset.cs" />
      <Compile Include="Assets\Scripts\Controller Scripts\ScoreController.cs" />
      <Compile Include="Assets\Scripts\DefaultVelocity.cs" />
      <Compile Include="Assets\Scripts\Exit.cs" />
-     <Compile Include="Assets\Scripts\GameOverCanvas.cs" />
      <Compile Include="Assets\Scripts\GeneratePowerUp.cs" />
      <Compile Include="Assets\Scripts\GirarCanhao.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />

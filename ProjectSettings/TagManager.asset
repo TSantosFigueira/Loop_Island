@@ -12,6 +12,7 @@ TagManager:
   - Pause
   - Wheel
   - ScoreTag
+  - SoundButton
   layers:
   - Default
   - TransparentFX
