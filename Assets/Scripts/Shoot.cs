@@ -34,5 +34,10 @@ public class Shoot : MonoBehaviour {
             Destroy(collider.gameObject);
             Destroy(transform.gameObject);
         }
+        if(collider.gameObject.name == "ostra1(Clone)")
+        {
+            Destroy(collider.gameObject);
+            Destroy(transform.gameObject);
+        }
     }
 }
