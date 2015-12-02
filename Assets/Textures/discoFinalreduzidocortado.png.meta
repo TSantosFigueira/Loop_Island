@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 8b0f36f876421c64dab24b0848d04484
+timeCreated: 1449092230
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: parte8
+    21300002: parte1
+    21300004: parte2
+    21300006: parte7
+    21300008: discoFinalreduzidocortado_4
+    21300010: parte3
+    21300012: parte6
+    21300014: parte5
+    21300016: parte4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: parte8
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1081
+        width: 488
+        height: 481
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: parte1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1393
+        width: 490
+        height: 232
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: parte2
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1077
+        width: 476
+        height: 458
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: parte7
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 569
+        width: 240
+        height: 509
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: discoFinalreduzidocortado_4
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 580
+        width: 20
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: parte3
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 575
+        width: 224
+        height: 513
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: parte6
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 80
+        width: 477
+        height: 495
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: parte5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 514
+        height: 239
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: parte4
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 80
+        width: 438
+        height: 478
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

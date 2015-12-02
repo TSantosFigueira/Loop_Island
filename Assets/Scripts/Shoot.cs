@@ -5,9 +5,10 @@ public class Shoot : MonoBehaviour {
     private GameObject target;
     private float distance;
     public float speed = 5f;
-    
-	// Use this for initialization
-	void Start () {
+    public float DeathTime = 1f;
+
+    // Use this for initialization
+    void Start () {
         target = GameObject.FindGameObjectWithTag("Respawn");
 	}
 	
@@ -19,7 +20,10 @@ public class Shoot : MonoBehaviour {
         if (distance <= 0.01)
         {
             Destroy(transform.gameObject);
+           
         }
+        DestroyObject(gameObject, DeathTime);
+        GameObject.Destroy(gameObject, DeathTime);
     }
 
     void OnCollisionEnter2D(Collision2D collider)
