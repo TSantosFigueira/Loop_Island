@@ -6,6 +6,7 @@ public class SpawnOnCollision : MonoBehaviour
     public GameObject Controller;
     public GameObject Direction;
     public float AngleCanhao;
+    public Transform centro;
 
     private GameObject[] ObjectToSpawn;
     private bool IsBusy;
@@ -28,6 +29,7 @@ public class SpawnOnCollision : MonoBehaviour
                     //AngleCanhao = Vector3.Distance(gameObject.transform.up, Direction.transform.position);
                     ObjectSpawned.gameObject.transform.SetParent(this.transform);
                     ObjectSpawned.transform.position = gameObject.transform.position;
+                    ObjectSpawned.transform.localScale = new Vector3(1.3f, 1.2f, 0);
                     ObjectSpawned.transform.eulerAngles = new Vector3(0, 0, AngleCanhao - 99 + transform.rotation.eulerAngles.z);
                     //new Vector3(0, 0, AngleCanhao - 107);
                     ObjectSpawned.transform.position = ObjectSpawned.transform.position - ObjectSpawned.transform.up * 0.5f;

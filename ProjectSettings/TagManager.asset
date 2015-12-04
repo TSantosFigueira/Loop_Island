@@ -59,3 +59,6 @@ TagManager:
   - name: fase
     uniqueID: 2649164235
     locked: 0
+  - name: inimigo
+    uniqueID: 2256511015
+    locked: 0
