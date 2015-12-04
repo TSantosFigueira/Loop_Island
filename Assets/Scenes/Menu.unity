@@ -772,6 +772,7 @@ GameObject:
   - 114: {fileID: 1467075150}
   - 114: {fileID: 1467075152}
   - 114: {fileID: 1467075153}
+  - 114: {fileID: 1467075154}
   m_Layer: 0
   m_Name: Screen Controller
   m_TagString: Untagged
@@ -831,6 +832,17 @@ MonoBehaviour:
   SoundButtonTAG: SoundButton
   ButtonON: {fileID: 21300012, guid: efefe2da0afe0324d86bbfe4a1484baa, type: 3}
   ButtonOFF: {fileID: 21300004, guid: efefe2da0afe0324d86bbfe4a1484baa, type: 3}
+--- !u!114 &1467075154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1467075149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d38e4d47fb0056a41aa20a2934c0849d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1517381184
 GameObject:
   m_ObjectHideFlags: 0

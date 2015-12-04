@@ -8,6 +8,7 @@ public class Mover2 : MonoBehaviour {
 
     void OnMouseDown()
     {
+            gameObject.GetComponent<Animator>().SetTrigger("piscando");
             PlayerPrefs.SetInt("SelectedObject", ObjectKey);
             PlayerPrefs.SetInt("Custo", Custo);
     }

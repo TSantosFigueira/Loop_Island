@@ -6,6 +6,7 @@ public class ObjectsManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         PlayerPrefs.SetInt("SelectedObject", 0);
+        gameObject.GetComponent<Animator>().SetTrigger("piscando");
     }
 	
 	// Update is called once per frame
