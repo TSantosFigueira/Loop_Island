@@ -32,18 +32,18 @@ public class MoveTowardsPlayer : MonoBehaviour
 
     void Start()
     {
-        turret = WhichSide(Random.Range(1, 9));
+        turret = WhichSide(Random.Range(1, 7));
     }
 
     // Update is called once per frame
     void Update()
     {
         if(podeMover)
-            transform.position = Vector2.Lerp(transform.position, turret.transform.position, Time.deltaTime);
+            transform.position = Vector2.Lerp(transform.position, turret.transform.position, Time.deltaTime * speed);
 
         //Checks if this enemy has gone too far and hasn't hit any part of the wheel
         distance = Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Wheel").transform.position);
-        if (distance >= 1.77)
+        if (distance >= 2.15)
         {
             Destroy(transform.gameObject);
         }

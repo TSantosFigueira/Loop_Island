@@ -4,7 +4,7 @@ using System.Collections;
 public class Shoot : MonoBehaviour {
     private GameObject target;
     private float distance;
-    public float speed = 5f;
+    public float speed = 50f;
     public float DeathTime = 1f;
 
     // Use this for initialization
@@ -20,10 +20,9 @@ public class Shoot : MonoBehaviour {
         if (distance <= 0.01)
         {
             Destroy(transform.gameObject);
-           
         }
-        DestroyObject(gameObject, DeathTime);
-        GameObject.Destroy(gameObject, DeathTime);
+        // DestroyObject(gameObject, DeathTime);
+        //GameObject.Destroy(gameObject, DeathTime);
     }
 
     void OnCollisionEnter2D(Collision2D collider)
