@@ -275,7 +275,7 @@ PolygonCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: .150000006, y: 0}
   m_Points:
     m_Paths:
     - - {x: 2.95485044, y: -5.98547506}
@@ -732,11 +732,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 121650, guid: 29868459260c82a4d8106061336dd889, type: 2}
       propertyPath: m_Name
-      value: piscando
+      value: piscando2
       objectReference: {fileID: 0}
     - target: {fileID: 121650, guid: 29868459260c82a4d8106061336dd889, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 121650, guid: 29868459260c82a4d8106061336dd889, type: 2}
+      propertyPath: m_TagString
+      value: blink
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29868459260c82a4d8106061336dd889, type: 2}
@@ -884,6 +888,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11429770, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
+      propertyPath: numCannon
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
   m_IsPrefabParent: 0
@@ -945,6 +953,10 @@ Prefab:
     - target: {fileID: 11446450, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11429770, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
+      propertyPath: numCannon
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
@@ -1705,11 +1717,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 121650, guid: 29868459260c82a4d8106061336dd889, type: 2}
       propertyPath: m_Name
-      value: piscando
+      value: piscando3
       objectReference: {fileID: 0}
     - target: {fileID: 121650, guid: 29868459260c82a4d8106061336dd889, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 121650, guid: 29868459260c82a4d8106061336dd889, type: 2}
+      propertyPath: m_TagString
+      value: blink
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29868459260c82a4d8106061336dd889, type: 2}
@@ -1776,6 +1792,10 @@ Prefab:
     - target: {fileID: 11446450, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11429770, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
+      propertyPath: numCannon
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
@@ -1896,7 +1916,7 @@ PolygonCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: .129999995, y: 0}
   m_Points:
     m_Paths:
     - - {x: 3.40379477, y: -6.19566488}
@@ -1923,22 +1943,32 @@ PolygonCollider2D:
       - {x: 3.76238561, y: .662384272}
       - {x: 2.86590862, y: .841679692}
       - {x: 2.41767001, y: .976151228}
-      - {x: 1.96943152, y: 1.87262821}
-      - {x: 1.47636914, y: 2.58980989}
-      - {x: .93848294, y: 3.17251992}
-      - {x: .400596768, y: 3.71040606}
+      - {x: 2.19672823, y: .241555259}
+      - {x: .25493136, y: -.0667981505}
+      - {x: .780487657, y: .069242768}
+      - {x: 2.06611395, y: .394943029}
+      - {x: -1.29230535, y: .936828792}
       - {x: -.00281790574, y: 4.06899691}
-      - {x: -.495880276, y: 4.47241163}
-      - {x: -1.16823804, y: 4.96547413}
-      - {x: -1.75094807, y: 5.36888885}
-      - {x: -2.51295352, y: 5.81712723}
-      - {x: -3.63354993, y: 6.35501337}
-      - {x: -3.94731688, y: 6.48948479}
-      - {x: -4.35073137, y: 6.71360397}
-      - {x: -4.44037914, y: 6.7584281}
-      - {x: -5.56097555, y: 6.7584281}
-      - {x: -5.87474251, y: 6.53430891}
-      - {x: -5.82991838, y: 6.35501337}
+      - {x: -1.87403405, y: .760561883}
+      - {x: -1.77914333, y: .601471364}
+      - {x: -1.45865107, y: .83041805}
+      - {x: -2.52019453, y: -.254710257}
+      - {x: -3.10977459, y: .0137821892}
+      - {x: -1.94996536, y: .788345873}
+      - {x: -4.02664661, y: .46800065}
+      - {x: -2.74674749, y: .327093124}
+      - {x: .0700661391, y: -.142076716}
+      - {x: -3.6960454, y: .352754056}
+      - {x: -5.71891356, y: -.877534211}
+      - {x: -8.31791115, y: -1.10932553}
+      - {x: -9.33674335, y: -1.02858973}
+      - {x: -5.8011961, y: .576229036}
+      - {x: -6.04619694, y: -.638515115}
+      - {x: -4.72345638, y: -.969710767}
+      - {x: -6.1589551, y: -1.47698569}
+      - {x: -5.8767767, y: -1.65239775}
+      - {x: -7.02568102, y: -2.82367086}
+      - {x: -5.73627138, y: -.948897362}
       - {x: -5.78509474, y: 5.81712723}
       - {x: -5.74027061, y: 5.23441696}
       - {x: -5.65062332, y: 4.20346832}
@@ -1988,11 +2018,11 @@ PolygonCollider2D:
       - {x: -4.21625996, y: 3.48628688}
       - {x: -4.17143583, y: 3.53111076}
       - {x: -4.12661219, y: 4.33794022}
-      - {x: -4.12661219, y: 5.14476919}
-      - {x: -4.08178854, y: 5.18959332}
-      - {x: -4.12661219, y: 5.95159864}
-      - {x: -4.17143583, y: 5.68265581}
-      - {x: -4.12661219, y: 5.63783169}
+      - {x: -5.85012197, y: -1.2777741}
+      - {x: -3.79892826, y: -1.44567811}
+      - {x: -5.00023985, y: .983312368}
+      - {x: -4.69411659, y: 1.51194715}
+      - {x: -5.99125051, y: -.508872807}
       - {x: -4.12661219, y: 4.33794022}
       - {x: -4.17143583, y: 3.57593465}
       - {x: -4.17143583, y: 3.12769604}
@@ -2125,25 +2155,9 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 21269910, guid: 29868459260c82a4d8106061336dd889, type: 2}
-      propertyPath: m_SortingLayerID
-      value: -1238724781
-      objectReference: {fileID: 0}
-    - target: {fileID: 438182, guid: 29868459260c82a4d8106061336dd889, type: 2}
-      propertyPath: m_LocalScale.x
-      value: .470099032
-      objectReference: {fileID: 0}
-    - target: {fileID: 438182, guid: 29868459260c82a4d8106061336dd889, type: 2}
-      propertyPath: m_LocalScale.y
-      value: .44502902
-      objectReference: {fileID: 0}
-    - target: {fileID: 9577696, guid: 29868459260c82a4d8106061336dd889, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 121650, guid: 29868459260c82a4d8106061336dd889, type: 2}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_Name
+      value: piscando1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29868459260c82a4d8106061336dd889, type: 2}
@@ -2395,6 +2409,7 @@ MonoBehaviour:
   Controller: {fileID: 691274789}
   ObjectKey: 5
   Custo: 0
+  numCannon: 0
 --- !u!50 &1335620641
 Rigidbody2D:
   serializedVersion: 2
@@ -2535,7 +2550,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2.77999997
+  m_Radius: 2.16000009
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &1404023780
 AudioSource:
@@ -2923,7 +2938,7 @@ PolygonCollider2D:
       - {x: 9.6784277, y: -2.8478055}
       - {x: 10.2163143, y: -2.39956713}
       - {x: 10.6645527, y: -1.90650475}
-      - {x: 10.6645527, y: -1.81685698}
+      - {x: 10.5215435, y: -1.74533165}
       - {x: 10.3507862, y: -1.54791391}
       - {x: 9.45430851, y: -1.14449918}
       - {x: 9.36466122, y: -1.05485153}
@@ -2966,7 +2981,7 @@ PolygonCollider2D:
       - {x: -8.47523117, y: -1.18932307}
       - {x: -9.05794144, y: -1.54791391}
       - {x: -9.86477089, y: -2.08580017}
-      - {x: -10.4474812, y: -2.53403854}
+      - {x: -10.5695944, y: -2.68329453}
       - {x: -10.6267767, y: -2.75815797}
       - {x: -10.6267767, y: -2.93745327}
       - {x: -10.1785383, y: -3.25122023}
@@ -4096,11 +4111,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 121650, guid: 29868459260c82a4d8106061336dd889, type: 2}
       propertyPath: m_Name
-      value: piscando
+      value: piscando4
       objectReference: {fileID: 0}
     - target: {fileID: 121650, guid: 29868459260c82a4d8106061336dd889, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 121650, guid: 29868459260c82a4d8106061336dd889, type: 2}
+      propertyPath: m_TagString
+      value: blink
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 29868459260c82a4d8106061336dd889, type: 2}
@@ -4154,6 +4173,10 @@ Prefab:
       objectReference: {fileID: 691274789}
     - target: {fileID: 11446450, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11429770, guid: 5927ffc39b1a34742ad23193ab6dc825, type: 2}
+      propertyPath: numCannon
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

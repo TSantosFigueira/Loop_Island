@@ -13,6 +13,7 @@ TagManager:
   - Wheel
   - ScoreTag
   - SoundButton
+  - blink
   layers:
   - Default
   - TransparentFX

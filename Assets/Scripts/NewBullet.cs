@@ -29,6 +29,10 @@ public class NewBullet : MonoBehaviour
                 Instantiate(bullet, transform.parent.gameObject.transform.position, Quaternion.identity);
                 gameObject.GetComponent<Animator>().SetTrigger("atirando");
                 GetComponent<AudioSource>().PlayOneShot(atirando, 0.4f);
+                GameObject.Find("piscando1").GetComponent<Animator>().SetBool("blink", false);
+                GameObject.Find("piscando2").GetComponent<Animator>().SetBool("blink", false);
+                GameObject.Find("piscando3").GetComponent<Animator>().SetBool("blink", false);
+                GameObject.Find("piscando4").GetComponent<Animator>().SetBool("blink", false);
             }
             // Wait for seconds befor continueing the loop.
             yield return new WaitForSeconds(delayTime);
