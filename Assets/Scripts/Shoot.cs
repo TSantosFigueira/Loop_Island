@@ -5,7 +5,8 @@ public class Shoot : MonoBehaviour {
     private GameObject target;
     private float distance;
     public float speed = 50f;
-    public float DeathTime = 1f;
+
+    //public float DeathTime = 1f;
 
     // Use this for initialization
     void Start () {
@@ -17,7 +18,7 @@ public class Shoot : MonoBehaviour {
     {
         transform.position = Vector2.Lerp(transform.position, target.transform.position, speed * Time.deltaTime);
         distance = Vector3.Distance(transform.position, target.transform.position);
-        if (distance <= 0.01)
+        if (distance <= 0.01) //Destroy bullet when it hits center 
         {
             Destroy(transform.gameObject);
         }
@@ -25,9 +26,9 @@ public class Shoot : MonoBehaviour {
         //GameObject.Destroy(gameObject, DeathTime);
     }
 
-    void OnCollisionEnter2D(Collision2D collider)
+    void OnCollisionEnter2D (Collision2D collider)
     {
-        if (collider.gameObject.name == "enemy(Clone)")
+        if (collider.gameObject.name == "inimigofinal(Clone)")
         {
             Destroy(collider.gameObject);
             Destroy(transform.gameObject);
@@ -38,6 +39,11 @@ public class Shoot : MonoBehaviour {
             Destroy(transform.gameObject);
         }
         if(collider.gameObject.name == "ostra1(Clone)")
+        {
+            Destroy(collider.gameObject);
+            Destroy(transform.gameObject);
+        }
+        if (collider.gameObject.name == "Canhao 2")
         {
             Destroy(collider.gameObject);
             Destroy(transform.gameObject);

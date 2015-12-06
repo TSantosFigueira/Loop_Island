@@ -76,6 +76,7 @@
      <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
      <Compile Include="Assets\Scripts\SpawnOnCollision.cs" />
      <Compile Include="Assets\Scripts\Spinner.cs" />
+     <Compile Include="Assets\Scripts\WinLose.cs" />
      <Compile Include="Assets\Scripts\setScore.cs" />
      <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
      <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />

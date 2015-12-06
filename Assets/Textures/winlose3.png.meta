@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: f03d42c51fae7fc42b56b709e3b1cf4b
+timeCreated: 1449326546
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: winlose3_0
+    21300002: winlose3_1
+    21300004: winlose3_2
+    21300006: winlose3_3
+    21300008: winlose3_4
+    21300010: winlose3_5
+    21300012: winlose3_6
+    21300014: winlose3_7
+    21300016: winlose3_8
+    21300018: winlose3_9
+    21300020: winlose3_10
+    21300022: winlose3_11
+    21300024: winlose3_12
+    21300026: winlose3_13
+    21300028: winlose3_14
+    21300030: winlose3_15
+    21300032: winlose3_16
+    21300034: winlose3_17
+    21300036: winlose3_18
+    21300038: winlose3_19
+    21300040: winlose3_20
+    21300042: winlose3_21
+    21300044: winlose3_22
+    21300046: winlose3_23
+    21300048: winlose3_24
+    21300050: winlose3_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: winlose3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4044
+        width: 1624
+        height: 2612
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_1
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 4121
+        width: 1627
+        height: 2632
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_2
+      rect:
+        serializedVersion: 2
+        x: 4211
+        y: 6137
+        width: 1571
+        height: 756
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_3
+      rect:
+        serializedVersion: 2
+        x: 4211
+        y: 4716
+        width: 1571
+        height: 763
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_4
+      rect:
+        serializedVersion: 2
+        x: 4421
+        y: 4079
+        width: 433
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_5
+      rect:
+        serializedVersion: 2
+        x: 5114
+        y: 4079
+        width: 433
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_6
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 3841
+        width: 755
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_7
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 3841
+        width: 762
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_8
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 3645
+        width: 755
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_9
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 3645
+        width: 762
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_10
+      rect:
+        serializedVersion: 2
+        x: 4421
+        y: 3632
+        width: 433
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_11
+      rect:
+        serializedVersion: 2
+        x: 5114
+        y: 3632
+        width: 433
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_12
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 3448
+        width: 755
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_13
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 3448
+        width: 762
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_14
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 480
+        width: 1406
+        height: 2394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_15
+      rect:
+        serializedVersion: 2
+        x: 4526
+        y: 2825
+        width: 279
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_16
+      rect:
+        serializedVersion: 2
+        x: 4869
+        y: 2825
+        width: 279
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_17
+      rect:
+        serializedVersion: 2
+        x: 5219
+        y: 2825
+        width: 279
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 341
+        width: 1413
+        height: 2400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_19
+      rect:
+        serializedVersion: 2
+        x: 4561
+        y: 1943
+        width: 265
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_20
+      rect:
+        serializedVersion: 2
+        x: 4876
+        y: 1943
+        width: 272
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_21
+      rect:
+        serializedVersion: 2
+        x: 5191
+        y: 1943
+        width: 272
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_22
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 193
+        width: 762
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_23
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 193
+        width: 762
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_24
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 762
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlose3_25
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 0
+        width: 762
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
