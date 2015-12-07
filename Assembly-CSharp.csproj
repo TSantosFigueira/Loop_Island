@@ -59,13 +59,14 @@
      <Compile Include="Assets\Scripts\Controller Scripts\Reset.cs" />
      <Compile Include="Assets\Scripts\Controller Scripts\ScoreController.cs" />
      <Compile Include="Assets\Scripts\DefaultVelocity.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\Exit.cs" />
      <Compile Include="Assets\Scripts\GeneratePowerUp.cs" />
      <Compile Include="Assets\Scripts\GirarCanhao.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
-     <Compile Include="Assets\Scripts\MoveTowardsPlayer.cs" />
      <Compile Include="Assets\Scripts\Mover2.cs" />
      <Compile Include="Assets\Scripts\NewBullet.cs" />
+     <Compile Include="Assets\Scripts\NewFase.cs" />
      <Compile Include="Assets\Scripts\ObjectsManager.cs" />
      <Compile Include="Assets\Scripts\OstraCollect.cs" />
      <Compile Include="Assets\Scripts\OstraSpawn.cs" />

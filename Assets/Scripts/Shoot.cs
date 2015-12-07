@@ -4,7 +4,7 @@ using System.Collections;
 public class Shoot : MonoBehaviour {
     private GameObject target;
     private float distance;
-    public float speed = 50f;
+    private float speed = 5f;
 
     //public float DeathTime = 1f;
 
@@ -28,11 +28,11 @@ public class Shoot : MonoBehaviour {
 
     void OnCollisionEnter2D (Collision2D collider)
     {
-        if (collider.gameObject.name == "inimigofinal(Clone)")
+     /*if (collider.gameObject.name == "inimigofinal(Clone)")
         {
             Destroy(collider.gameObject);
             Destroy(transform.gameObject);
-        }
+        } */
         if (collider.gameObject.name == "bullet(Clone)")
         {
             Destroy(collider.gameObject);

@@ -6,7 +6,7 @@ TagManager:
   tags:
   - dock
   - Score
-  - ScoreGameOver
+  - ScoreYinLose
   - HighestScore
   - diskDock
   - Pause
