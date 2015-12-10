@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: b01fe3bd11173c04b9b320beb0290daf
+timeCreated: 1449670661
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: winlosegigante_0
+    21300002: winlosegigante_1
+    21300004: winlosegigante_2
+    21300006: winlosegigante_3
+    21300008: winlosegigante_4
+    21300010: winlosegigante_5
+    21300012: winlosegigante_6
+    21300014: winlosegigante_7
+    21300016: winlosegigante_8
+    21300018: winlosegigante_9
+    21300020: winlosegigante_10
+    21300022: winlosegigante_11
+    21300024: winlosegigante_12
+    21300026: winlosegigante_13
+    21300028: winlosegigante_14
+    21300030: winlosegigante_15
+    21300032: winlosegigante_16
+    21300034: winlosegigante_17
+    21300036: winlosegigante_18
+    21300038: winlosegigante_19
+    21300040: winlosegigante_20
+    21300042: winlosegigante_21
+    21300044: winlosegigante_22
+    21300046: winlosegigante_23
+    21300048: winlosegigante_24
+    21300050: winlosegigante_25
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: winlosegigante_0
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 3895
+        width: 1568
+        height: 2937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_1
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 3969
+        width: 1567
+        height: 2932
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_2
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 5911
+        width: 1517
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_3
+      rect:
+        serializedVersion: 2
+        x: 4223
+        y: 4543
+        width: 1517
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_4
+      rect:
+        serializedVersion: 2
+        x: 4426
+        y: 3928
+        width: 424
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_5
+      rect:
+        serializedVersion: 2
+        x: 5093
+        y: 3928
+        width: 425
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_6
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 3706
+        width: 728
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_7
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 3706
+        width: 734
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_8
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 3510
+        width: 728
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_9
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 3510
+        width: 734
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_10
+      rect:
+        serializedVersion: 2
+        x: 4426
+        y: 3497
+        width: 424
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_11
+      rect:
+        serializedVersion: 2
+        x: 5093
+        y: 3497
+        width: 425
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_12
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 3322
+        width: 728
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_13
+      rect:
+        serializedVersion: 2
+        x: 2916
+        y: 3322
+        width: 734
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_14
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 462
+        width: 1360
+        height: 2306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_15
+      rect:
+        serializedVersion: 2
+        x: 4527
+        y: 2721
+        width: 269
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_16
+      rect:
+        serializedVersion: 2
+        x: 4857
+        y: 2721
+        width: 270
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_17
+      rect:
+        serializedVersion: 2
+        x: 5194
+        y: 2721
+        width: 270
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_18
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 334
+        width: 1361
+        height: 2306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_19
+      rect:
+        serializedVersion: 2
+        x: 4561
+        y: 1872
+        width: 256
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_20
+      rect:
+        serializedVersion: 2
+        x: 4865
+        y: 1872
+        width: 262
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_21
+      rect:
+        serializedVersion: 2
+        x: 5167
+        y: 1872
+        width: 263
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_22
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 185
+        width: 734
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_23
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 185
+        width: 734
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_24
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 0
+        width: 733
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: winlosegigante_25
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 0
+        width: 734
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
