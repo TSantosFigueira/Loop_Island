@@ -9,6 +9,8 @@ public class NewBullet : MonoBehaviour
     private float distance;
     public AudioClip atirando;
 
+
+
     void Start()
     {
        target = GameObject.FindGameObjectWithTag("Respawn");
@@ -27,10 +29,7 @@ public class NewBullet : MonoBehaviour
             gameObject.GetComponent<Animator>().SetTrigger("atirando");
             GetComponent<AudioSource>().PlayOneShot(atirando, 0.4f);
 
-            GameObject.Find("piscando1").GetComponent<Animator>().SetBool("blink", false);
-            GameObject.Find("piscando2").GetComponent<Animator>().SetBool("blink", false);
-            GameObject.Find("piscando3").GetComponent<Animator>().SetBool("blink", false);
-            GameObject.Find("piscando4").GetComponent<Animator>().SetBool("blink", false);
+
         }
     }
     
@@ -49,10 +48,6 @@ public class NewBullet : MonoBehaviour
                 gameObject.GetComponent<Animator>().SetTrigger("atirando");
                 GetComponent<AudioSource>().PlayOneShot(atirando, 0.4f);
 
-                GameObject.Find("piscando1").GetComponent<Animator>().SetBool("blink", false);
-                GameObject.Find("piscando2").GetComponent<Animator>().SetBool("blink", false);
-                GameObject.Find("piscando3").GetComponent<Animator>().SetBool("blink", false);
-                GameObject.Find("piscando4").GetComponent<Animator>().SetBool("blink", false);
             }
 
             yield return new WaitForSeconds(delayTime);

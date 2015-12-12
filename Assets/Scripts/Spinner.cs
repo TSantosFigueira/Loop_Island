@@ -14,6 +14,7 @@ public class Spinner : MonoBehaviour {
             //Mathf.Atan2 retorna o ângulo em radianos cuja tangente é definida por y/x
             baseAngle = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
             baseAngle -= Mathf.Atan2(transform.right.y, transform.right.x) * Mathf.Rad2Deg;
+            GetComponent<AudioSource>().PlayOneShot(musica1, 0f);
         }
         
     }

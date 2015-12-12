@@ -3,8 +3,10 @@ using System.Collections;
 
 public class ObjectsManager : MonoBehaviour {
     public GameObject[] ObjectsToSpawn;
-	// Use this for initialization
-	void Start () {
+    private GameObject CarregandoToLoad;
+    public GameObject PiscandoToLoad;
+    // Use this for initialization
+    void Start () {
         PlayerPrefs.SetInt("SelectedObject", 0);
         gameObject.GetComponent<Animator>().SetTrigger("piscando");
     }
@@ -13,4 +15,22 @@ public class ObjectsManager : MonoBehaviour {
 	void Update () {
 	
 	}
+    public void SetCarregandoToLoad(GameObject carregando)
+    {
+        CarregandoToLoad = carregando;
+    }
+    public GameObject GetCarregandoToLoad()
+    {
+        return CarregandoToLoad;
+    }
+
+    
+    public void SetPiscandoToLoad(GameObject piscando)
+    {
+        PiscandoToLoad = piscando;
+    }
+    public GameObject GetPiscandoToLoad()
+    {
+        return PiscandoToLoad;
+    }
 }

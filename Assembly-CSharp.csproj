@@ -80,6 +80,8 @@
      <Compile Include="Assets\Scripts\Spinner.cs" />
      <Compile Include="Assets\Scripts\WinLose.cs" />
      <Compile Include="Assets\Scripts\setScore.cs" />
+     <Compile Include="Assets\piscar.cs" />
+     <Compile Include="Assets\recarrega.cs" />
      <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
      <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />

@@ -16,6 +16,7 @@ TagManager:
   - blink
   - enemy
   - ScoreGameOver
+  - timeCanhao
   layers:
   - Default
   - TransparentFX
@@ -56,8 +57,20 @@ TagManager:
   - name: Background
     uniqueID: 2086036757
     locked: 0
+  - name: painel
+    uniqueID: 1431712585
+    locked: 0
   - name: Foreground
     uniqueID: 2843160771
+    locked: 0
+  - name: barco
+    uniqueID: 3010570887
+    locked: 0
+  - name: custocannon
+    uniqueID: 277775987
+    locked: 0
+  - name: piscando
+    uniqueID: 2504036589
     locked: 0
   - name: fase
     uniqueID: 2649164235
@@ -73,4 +86,16 @@ TagManager:
     locked: 0
   - name: canvas
     uniqueID: 3818072629
+    locked: 0
+  - name: bullet
+    uniqueID: 1495952231
+    locked: 0
+  - name: qntCanhao
+    uniqueID: 1586038351
+    locked: 0
+  - name: canhao
+    uniqueID: 2998075723
+    locked: 0
+  - name: time
+    uniqueID: 2921516273
     locked: 0

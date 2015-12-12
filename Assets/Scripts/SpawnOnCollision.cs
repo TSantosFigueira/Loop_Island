@@ -7,6 +7,10 @@ public class SpawnOnCollision : MonoBehaviour
     public GameObject Direction;
     public float AngleCanhao;
 
+    private GameObject carregando;
+    private GameObject piscando;
+
+
     private GameObject[] ObjectToSpawn;
     private bool IsBusy;
     private GameObject ObjectSpawned;
@@ -24,11 +28,12 @@ public class SpawnOnCollision : MonoBehaviour
                 ObjectSpawned = Instantiate(ObjectToSpawn[ObjectKey]);
                 if (ObjectSpawned)
                 {
+
                     //AngleCanhao = this.transform.eulerAngles;
                     //AngleCanhao = Vector3.Distance(gameObject.transform.up, Direction.transform.position);
                     ObjectSpawned.gameObject.transform.SetParent(this.transform);
                     ObjectSpawned.transform.position = gameObject.transform.position;
-                    ObjectSpawned.transform.localScale = new Vector3(1.3f, 1.2f, 0);
+                    ObjectSpawned.transform.localScale = new Vector3(0.9f, 0.99f, 0);
                     ObjectSpawned.transform.eulerAngles = new Vector3(0, 0, transform.rotation.eulerAngles.z +180);
                     //new Vector3(0, 0, AngleCanhao - 107);
                     ObjectSpawned.transform.position = ObjectSpawned.transform.position;
@@ -37,7 +42,13 @@ public class SpawnOnCollision : MonoBehaviour
                     PlayerPrefs.SetInt("SelectedObject", 0);
                     PlayerPrefs.SetInt("Custo", 0);
                     IsBusy = true;
-                    Debug.Log(Controller.GetComponent<CoinManager>().GetCoins());
+
+                    carregando = GameObject.Find("Controller").GetComponent<ObjectsManager>().GetCarregandoToLoad();
+                    carregando.SetActive(true);
+
+                    piscando = GameObject.Find("Controller").GetComponent<ObjectsManager>().GetPiscandoToLoad();
+                    piscando.SetActive(false);
+
                 }
             }
         }
